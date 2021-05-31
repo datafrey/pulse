@@ -1,0 +1,26 @@
+@media (max-width: 991px) {
+  .header {
+    &__logo {
+      width: 200px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    &__official {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .header {
+    &__logo {
+      width: 140px
+    }
+    &__phone {
+      font-size: 14px;
+    }
+  }
+}

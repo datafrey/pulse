@@ -1,0 +1,24 @@
+@media (max-width: 575px) {
+  .modal {
+    padding: 20px 10px;
+    width: 100%;
+    min-height: 0;
+    height: auto;
+    &__subtitle {
+      font-size: 16px;
+      line-height: 16px;
+    }
+    &__descr {
+      margin-top: 10px;
+      font-size: 13px;
+      line-height: 14px;
+    }
+    &__close {
+      top: -30px;
+      right: 5px;
+    }
+    label.error {
+      font-size: 13px;
+    }
+  }
+}

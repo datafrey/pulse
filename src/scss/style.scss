@@ -1,0 +1,63 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/animate';
+
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
+
+* {
+  font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+  position: relative;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  .container {
+    padding: 0 15px;
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+@import 'blocks/promo/promo';
+@import 'blocks/promo/media';
+@import 'blocks/header/header';
+@import 'blocks/header/media';
+@import 'blocks/buttons/buttons';
+@import 'blocks/buttons/media';
+@import 'blocks/advantages/advantages';
+@import 'blocks/advantages/media';
+@import 'blocks/titles/titles';
+@import 'blocks/titles/media';
+@import 'blocks/consultation/consultation';
+@import 'blocks/consultation/media';
+@import 'blocks/forms/forms';
+@import 'blocks/forms/media';
+@import 'blocks/carousel/carousel';
+@import 'blocks/carousel/media';
+@import 'blocks/catalog/catalog';
+@import 'blocks/catalog/media';
+@import 'blocks/reviews/reviews';
+@import 'blocks/reviews/media';
+@import 'blocks/footer/footer';
+@import 'blocks/footer/media';
+@import 'blocks/modal/modal';
+@import 'blocks/modal/media';
+@import 'blocks/pageup/pageup';
+@import 'blocks/pageup/media';

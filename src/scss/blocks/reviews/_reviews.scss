@@ -1,0 +1,44 @@
+.reviews {
+  padding-bottom: 71px;
+  &__items {
+    margin-top: 70px;
+    hr {
+      margin: 50px 3px;
+      border-color: #f6f6f6;
+      border-bottom: none;
+    }
+  }
+  &-item {
+    display: flex;
+    justify-content: flex-start;
+    &__avatar {
+      display: block;
+      width: 169px;
+      height: 169px;
+    }
+    &__wrapper {
+      margin-left: 61px;
+    }
+    &__user-name {
+      color: #0d0d0d;
+      font-size: 18px;
+      font-weight: 700;
+      text-align: left;
+    }
+    &__half-marathon-count {
+      margin-top: 10px;
+      color: #646464;
+      font-size: 14px;
+      font-weight: 300;
+      text-align: left;
+    }
+    &__review {
+      margin-top: 19px;
+      color: #0d0d0d;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 16px;
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@media (max-width: 991px) {
+  .reviews {
+    &__items {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .reviews {
+    padding-bottom: 40px;
+    &__items {
+      margin-top: 40px;
+      hr {
+        margin: 30px 3px;
+      }
+    }
+    &-item {
+      &__avatar {
+        width: 120px;
+        height: 120px;
+      }
+      &__wrapper {
+        margin-left: 20px;
+      }
+      &__half-marathon-count {
+        margin-top: 0;
+      }
+      &__review {
+        margin-top: 10px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .reviews {
+    padding-bottom: 30px;
+    &__items {
+      margin-top: 30px;
+    }
+    &-item {
+      flex-direction: column;
+      &__avatar {
+        margin: 0 auto;
+      }
+      &__wrapper {
+        margin-top: 20px;
+        margin-left: 0;
+      }
+      &__user-name {
+        text-align: center;
+      }
+      &__half-marathon-count {
+        text-align: center;
+      }
+    }
+  }
+}
